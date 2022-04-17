@@ -1,5 +1,5 @@
 # COMP_Project-DeiGo_Compiler
-- [x] Finished
+- [ ] Finished
 
 ## Index
 - [Description](#description)
