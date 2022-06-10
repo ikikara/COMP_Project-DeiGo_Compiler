@@ -57,6 +57,9 @@ You have multiple ways to run this project:
 - The code generation wasn't finished yet, so some functionalities will give some errors in LLVM or not work as expected.
 - For more information about how to use this project and how this DeiGO language works consult the Statement and Reports.
 - The folder "tests" have tests used while developing this project to verify that our program is returning the correct output.
+  * goal1 -> Lexical Analysis
+  * goal2 -> Syntatic Analysis
+  * goal3 -> Semantic Analysic
 
 ## Authors:
 - [João Silva](https://github.com/ikikara)
