@@ -23,8 +23,39 @@ Consists in develop a program that works as a Compiler for a branch of the langu
 5. Clang
 
 ## To run this project:
+You have multiple ways to run this project:
+  * Download the folder "src" and compile the files using the bash compile.sh:
+    ```shellscript
+    [your-disk]:[name-path]> sh compile.sh gocompiler
+    ```
+  * After compiling you will run the following flags:
+    + Lexical Analysis (-l):
+      ```shellscript
+      [your-disk]:[name-path]> ./gocompiler -l < file.txt
+      ```
+    + Syntatic Analysis (-t):
+      ```shellscript
+      [your-disk]:[name-path]> ./gocompiler -t < file.txt
+      ```
+    + Semantic Analysis (-s):
+      ```shellscript
+      [your-disk]:[name-path]> ./gocompiler -s < file.txt
+      ```
+    + Code generation (no flag) using the bash compile_llvm.sh
+      ```shellscript
+      [your-disk]:[name-path]> sh compile_llvm.sh [name-of-file.txt-without-.txt]
+      ```
+      This will generates a file .llvm that will have the assembly code of the original code. Then generates the executable of th program, to run it:
+      ```shellscript
+      [your-disk]:[name-path]> ./[name-of-file.txt-without-.txt]
+      ```
 
-## Notes important to read
+
+## Notes important to read:
+- This project was developed in Linux, so it's recommended to use it on Linux or a terminal WSL (Visual Studio).
+- As said before this project was developed in Linux so you will need to have Lex/Yacc/LLVM/Clang in installed "there".
+- The code generation wasn't finished yet, so some functionalities will give some errors in LLVM or not work as expected.
+- For more information about how to use this project and how this DeiGO language works consult the Statement and Reports
 
 ## Authors:
 - [João Silva](https://github.com/ikikara)
