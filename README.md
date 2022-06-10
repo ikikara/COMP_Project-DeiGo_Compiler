@@ -1,5 +1,7 @@
 # COMP_Project-DeiGo_Compiler
 - [ ] Finished
+- [ ] Solving memory leaks
+- [ ] Finish Code Generation
 
 ## Index
 - [Description](#description)
