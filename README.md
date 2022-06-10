@@ -45,7 +45,7 @@ You have multiple ways to run this project:
       ```shellscript
       [your-disk]:[name-path]> sh compile_llvm.sh [name-of-file.txt-without-.txt]
       ```
-      This will generates a file .llvm that will have the assembly code of the original code. Then generates the executable of th program, to run it:
+      This will generates a file .llvm that will have the assembly code of the original code. Then generates the executable of the program, to run it:
       ```shellscript
       [your-disk]:[name-path]> ./[name-of-file.txt-without-.txt]
       ```
