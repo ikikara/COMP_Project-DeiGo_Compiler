@@ -28,7 +28,7 @@ You have multiple ways to run this project:
     ```shellscript
     [your-disk]:[name-path]> sh compile.sh gocompiler
     ```
-  * After compiling you will run the following flags:
+  * After compiling you will run the with the following flags:
     + Lexical Analysis (-l):
       ```shellscript
       [your-disk]:[name-path]> ./gocompiler -l < file.txt
