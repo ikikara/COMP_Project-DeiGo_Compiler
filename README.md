@@ -55,7 +55,7 @@ You have multiple ways to run this project:
 
 ## Notes important to read:
 - This project was developed in Linux, so it's recommended to use it on Linux or a terminal WSL (Visual Studio).
-- As said before this project was developed in Linux so you will need to have Lex/Yacc/LLVM/Clang in installed "there".
+- As said before this project was developed in Linux so you will need to have Lex/Yacc/LLVM/Clang installed "there".
 - The code generation wasn't finished yet, so some functionalities will give some errors in LLVM or not work as expected.
 - For more information about how to use this project and how this DeiGO language works consult the Statement and Reports.
 - The folder "tests" have tests used while developing this project to verify that our program is returning the correct output.
