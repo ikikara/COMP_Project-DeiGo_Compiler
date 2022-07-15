@@ -64,5 +64,5 @@ You have multiple ways to run this project:
   * goal3 -> Semantic Analysic
 
 ## Authors:
-- [João Silva](https://github.com/ikikara)
+- [João Silva](https://github.com/joaosilva21)
 - [Pedro Martins](https://github.com/PedroMartinsUC)
